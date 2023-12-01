@@ -1,0 +1,82 @@
+body{
+
+    background-color: beige;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.signuP{
+    width: 360px;
+    height: 800px;
+    margin: auto;
+    background: whitesmoke;
+    border-radius: 10px;
+    border: 2px solid black;
+
+}
+
+.logiN{
+    width: 360px;
+    height: 300px;
+    margin: auto;
+    background: whitesmoke;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+h1{
+
+    text-align: center;
+    padding-top: 3vh;
+}
+
+form{
+
+    width: 300px;
+    margin-left: 20px;
+
+}
+
+form label{
+
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input{
+
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+
+
+input[type="submit"]{
+
+    width: 315px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    color: black;
+    background: lightskyblue;
+
+}
+
+p{
+
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
